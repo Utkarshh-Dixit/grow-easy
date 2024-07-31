@@ -1,4 +1,3 @@
-// components/BannerImageComp.tsx
 import React from "react";
 
 interface BannerProps {
