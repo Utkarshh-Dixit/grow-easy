@@ -50,40 +50,55 @@ const EditBannerTemplateBs: React.FC<EditBannerTemplateBsProps> = ({
   };
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-white p-4 shadow-lg z-50 transition-transform duration-300 transform translate-y-full animate-slide-in">
+    <div className="sticky max-w-lg bottom-0 left-0 right-0 bg-white p-4 shadow-lg z-50 transition-transform duration-300 transform translate-y-full animate-slide-in">
+      <label className="block text-sm font-semibold text-gray-700 mb-1 mt-2">
+        Title
+      </label>
       <input
         name="title"
         value={editedBanner.title}
         onChange={handleChange}
         placeholder="Title"
-        className="w-full p-2 border border-gray-300 bg-slate-900 rounded mb-2"
+        className="w-full p-2 border border-gray-300 bg-stone-900 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
       />
-      <textarea
+      <label className="block text-sm font-semibold text-gray-700 mb-1 mt-2">
+        Description
+      </label>
+      <input
         name="description"
         value={editedBanner.description}
         onChange={handleChange}
         placeholder="Description"
-        className="w-full p-2 border border-gray-300 bg-slate-900 rounded mb-2"
+        className="w-full p-2 border border-gray-300 bg-stone-900 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
       />
+      <label className="block text-sm font-semibold text-gray-700 mb-1 mt-2">
+        CTA
+      </label>
       <input
         name="cta"
         value={editedBanner.cta}
         onChange={handleChange}
         placeholder="CTA"
-        className="w-full p-2 border border-gray-300 rounded bg-slate-900 mb-2"
+        className="w-full p-2 border border-gray-300 bg-stone-900 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
       />
+      <label className="block text-sm font-semibold text-gray-700 mb-1 mt-2">
+        Image URL
+      </label>
       <input
         name="image"
         value={editedBanner.image}
         onChange={handleChange}
         placeholder="Image URL"
-        className="w-full p-2 border border-gray-300 rounded bg-slate-900 mb-2"
+        className="w-full p-2 border border-gray-300 bg-stone-900 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
       />
+      <label className="block text-sm font-semibold text-gray-700 mb-1 mt-2">
+        Upload Image
+      </label>
       <input
         type="file"
         accept="image/*"
         onChange={handleFileChange}
-        className="w-full p-2 border border-gray-300 rounded bg-slate-900 mb-2"
+        className="w-full p-2 border border-gray-300 bg-stone-900 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
       />
       {imagePreview && (
         <img
@@ -92,12 +107,15 @@ const EditBannerTemplateBs: React.FC<EditBannerTemplateBsProps> = ({
           className="w-full h-48 object-cover mb-2"
         />
       )}
+      <label className="block text-sm font-semibold text-gray-700 mb-1 mt-2">
+        Background Color
+      </label>
       <input
         name="background"
         value={editedBanner.background}
         onChange={handleChange}
         placeholder="Background Color"
-        className="w-full p-2 border border-gray-300 bg-slate-900 rounded mb-2"
+        className="w-full p-2 border border-gray-300 bg-stone-900 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
       />
       <button
         onClick={handleSave}
