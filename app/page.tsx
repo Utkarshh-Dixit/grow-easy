@@ -36,7 +36,7 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 bg-blue-800">
+    <div className="container mx-auto p-4 bg-white">
       <div className="flex flex-wrap gap-4 justify-center">
         {bannerList.map((banner) => (
           <BannerImageComp

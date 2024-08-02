@@ -12,7 +12,7 @@
     "title": "Ad Banner 2",
     "description": "This is the second ad banner",
     "cta": "Learn More",
-    "image": "/images/banner2.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#e0e0e0"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Ad Banner 3",
     "description": "This is the third ad banner",
     "cta": "Buy Now",
-    "image": "/images/banner3.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#d0d0d0"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Ad Banner 4",
     "description": "This is the fourth ad banner",
     "cta": "Get Started",
-    "image": "/images/banner4.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#c0c0c0"
   },
   {
@@ -44,7 +44,7 @@
     "title": "Ad Banner 6",
     "description": "This is the sixth ad banner",
     "cta": "Join Now",
-    "image": "/images/banner6.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#a0a0a0"
   },
   {
@@ -52,7 +52,7 @@
     "title": "Ad Banner 7",
     "description": "This is the seventh ad banner",
     "cta": "Get Involved",
-    "image": "/images/banner7.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#909090"
   },
   {
@@ -60,7 +60,7 @@
     "title": "Ad Banner 8",
     "description": "This is the eighth ad banner",
     "cta": "Donate Now",
-    "image": "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#808080"
   },
   {
@@ -68,7 +68,7 @@
     "title": "Ad Banner 9",
     "description": "This is the ninth ad banner",
     "cta": "Volunteer",
-    "image": "/images/banner9.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#707070"
   },
   {
@@ -76,7 +76,7 @@
     "title": "Ad Banner 10",
     "description": "This is the tenth ad banner",
     "cta": "Get Help",
-    "image": "/images/banner10.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#606060"
   },
   {
@@ -84,7 +84,7 @@
     "title": "Ad Banner 11",
     "description": "This is the eleventh ad banner",
     "cta": "Get Support",
-    "image": "/images/banner11.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#505050"
   },
   {
@@ -92,7 +92,7 @@
     "title": "Ad Banner 12",
     "description": "This is the twelfth ad banner",
     "cta": "Get Assistance",
-    "image": "/images/banner12.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#404040"
   },
   {
@@ -100,7 +100,7 @@
     "title": "Ad Banner 13",
     "description": "This is the thirteenth ad banner",
     "cta": "Get Involved",
-    "image": "/images/banner13.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#303030"
   },
   {
@@ -108,7 +108,7 @@
     "title": "Ad Banner 14",
     "description": "This is the fourteenth ad banner",
     "cta": "Donate Now",
-    "image": "/images/banner14.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#202020"
   },
   {
@@ -116,7 +116,7 @@
     "title": "Ad Banner 15",
     "description": "This is the fifteenth ad banner",
     "cta": "Volunteer",
-    "image": "/images/banner15.jpg",
+    "image": "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
     "background": "#101010"
   }
 ]

@@ -18,7 +18,7 @@ const BannerImageComp: React.FC<BannerProps> = ({
   onEdit,
 }) => {
   return (
-    <div className="relative max-w-sm rounded overflow-hidden shadow-lg m-4 bg-white h-64 xl:min-w-64 flex flex-col">
+    <div className="relative border-4 border-gray-700 max-w-sm rounded overflow-hidden shadow-lg m-4 bg-white h-64 xl:min-w-64 flex flex-col">
       {image ? (
         <img className="w-full h-full object-cover" src={image} alt={title} />
       ) : (
@@ -26,7 +26,7 @@ const BannerImageComp: React.FC<BannerProps> = ({
           No Image
         </div>
       )}
-      <div className="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-50 text-white">
+      <div className="absolute inset-0 flex flex-col justify-between p-4 text-white">
         <div className="flex-grow">
           <div className="font-bold text-xl mb-2">{title}</div>
           <p className="text-gray-200 text-base">{description}</p>
